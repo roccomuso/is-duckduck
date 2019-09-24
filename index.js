@@ -1,6 +1,6 @@
 const dns = require('dns')
 
-// check valid IPs: https://duckduckgo.com/duckduckbot
+// check valid IPs: https://help.duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/
 const DUCKDUCK_VALID_IP = [
   '50.16.241.113',
   '50.16.241.114',
