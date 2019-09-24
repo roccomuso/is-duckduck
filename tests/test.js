@@ -16,7 +16,7 @@ test('should fail with wrong inputs', (t) => {
 
 test('should pass on valid duckduckgo.com crawler ips', (t) => {
   t.plan(3)
-  isDuckDuck('72.94.249.34').then(outcome => t.ok(outcome))
-  isDuckDuck('72.94.249.35').then(outcome => t.ok(outcome))
-  isDuckDuck('72.94.249.36').then(outcome => t.ok(outcome))
+  isDuckDuck('50.16.241.113').then(outcome => t.ok(outcome))
+  isDuckDuck('50.16.241.114').then(outcome => t.ok(outcome))
+  isDuckDuck('50.16.241.117').then(outcome => t.ok(outcome))
 })
