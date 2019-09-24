@@ -1,7 +1,17 @@
 const dns = require('dns')
 
 // check valid IPs: https://duckduckgo.com/duckduckbot
-const DUCKDUCK_VALID_IP = ['72.94.249.34', '72.94.249.35', '72.94.249.36', '72.94.249.37', '72.94.249.38']
+const DUCKDUCK_VALID_IP = [
+  '50.16.241.113',
+  '50.16.241.114',
+  '50.16.241.117',
+  '50.16.247.234',
+  '52.204.97.54',
+  '52.5.190.19',
+  '54.197.234.188',
+  '54.208.100.253',
+  '23.21.227.69'
+]
 
 function isDuckDuck (ip) {
   return new Promise((resolve, reject) => {
