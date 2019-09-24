@@ -8,7 +8,7 @@
 
 > Verify that a request is from DuckDuckBot, the Web crawler for DuckDuckGo
 
-This library implements DuckDuckGo's own verification steps [outlined here](https://duckduckgo.com/duckduckbot).
+This library implements DuckDuckGo's own verification steps [outlined here](https://help.duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/).
 
 ## Install
 
